@@ -48,7 +48,7 @@ public final class Test2TopComponent extends TopComponent {
         initComponents();
         setName(Bundle.CTL_Test2TopComponent());
         setToolTipText(Bundle.HINT_Test2TopComponent());
-        ardorPanel = new ArdorPanel(new MyScene());
+        ardorPanel = new ArdorPanel();
         add(ardorPanel, BorderLayout.CENTER);
     }
 
